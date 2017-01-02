@@ -1,10 +1,12 @@
-package com.twosheds.dicom;
-
 /*
- * Copyright 2017 the Lite Dicom Parser Library Project Authors (Izzat Bahadirov et alia).
- * Licensed AS IS and WITHOUT WARRANTY under the Apache License,
- * Version 2.0. Details: <http://www.apache.org/licenses/LICENSE-2.0>
+ *
+ *  * Copyright 2015 the Lite Dicom Parser Project Authors (Izzat Bahadirov et alia).
+ *  * Licensed AS IS and WITHOUT WARRANTY under the Apache License,
+ *  * Version 2.0. Details: <http://www.apache.org/licenses/LICENSE-2.0>
+ *
  */
+
+package com.twosheds.dicom;
 
 public enum TransferSyntax {
     IMPLICIT_LITTLE_ENDIAN("1.2.840.10008.1.2", false),
